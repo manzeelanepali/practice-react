@@ -2,7 +2,7 @@ import React from 'react'
 
 const Display = (props) => {
   return (
-    <div>Display</div>
+    <div>{props.Manjila}</div>
   )
 }
 

@@ -18,8 +18,8 @@ const ControlledInput = () => {
     <>
       <input  onClick={click} onChange={change} value={setFirst}/>
       
-      <Display/>
-      <h1>{setFirst}</h1>
+      <Display Manjila={setFirst}/>
+      {/* <h1>{setFirst}</h1> */}
 </>
   )
 }
